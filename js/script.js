@@ -14,14 +14,6 @@ let num2 = 0 // второе число
 let finish = false
 
 // ф-ия очистки экрана ac
-function clearALL() {
-    num1 = ''
-    num2 = ''
-    operation = ''
-    finish = false
-    board.value = 0
-}
-clearALL();
 
 const cleaner = document.querySelector('#clear')
 cleaner.onclick = function () {
